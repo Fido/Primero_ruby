@@ -24,14 +24,17 @@
  => "Soy variable global"
 ```
 ### Variable de instancia (@)
+```ruby
  :006 > @vble_instancia = 'Soy variable de instancia'
  => "Soy variable de instancia"
+```
 
 ### Variable de clase (@@)
-  :007 > @@vble_clase = 'Soy variable de clase'
+```ruby
+ :007 > @@vble_clase = 'Soy variable de clase'
 (irb):7: warning: class variable access from toplevel
  => "Soy variable de clase"
-
+```
 ***********
 ### Objetos
 
