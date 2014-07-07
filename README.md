@@ -1,6 +1,6 @@
-Referencia Iniciacion Ruby!
+#Referencia Iniciacion Ruby!
 
-Variable local
+##Variable local
 
  :001 > vble_nombre = 'Perro'
  => "Perro"
