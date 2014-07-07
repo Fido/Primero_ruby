@@ -1,41 +1,42 @@
-#Referencia Iniciacion Ruby!
+##Mi referencia iniciacion #Ruby!
 
-##Variable local
-
+###Variable local
+```ruby
  :001 > vble_nombre = 'Perro'
  => "Perro"
  :002 > p vble_nombre
 "Perro"
  => "Perro"
-
-Constante
-
+```
+###Constante
+```ruby
  :003 > CONSTANTE = 'La constante'
  => "La constante"
  :004 > CONSTANTE = 'Cambiandola'
 (irb):4: warning: already initialized constant CONSTANTE
 (irb):3: warning: previous definition of CONSTANTE was here
  => "Cambiandola"
-
+```
  ***********
- Variable global ($)
+### Variable global ($)
+```ruby
  :005 > $vble_global = 'Soy variable global'
  => "Soy variable global"
-
- Variable de instancia (@)
+```
+### Variable de instancia (@)
  :006 > @vble_instancia = 'Soy variable de instancia'
  => "Soy variable de instancia"
 
- Variable de clase (@@)
+### Variable de clase (@@)
   :007 > @@vble_clase = 'Soy variable de clase'
 (irb):7: warning: class variable access from toplevel
  => "Soy variable de clase"
 
 ***********
-Objetos
+### Objetos
 
-Numerico, entero y flotante
-
+### Numerico, entero y flotante
+```ruby
 :008 > 69.class
  => Fixnum
  :009 > 69696969696969696969.class
@@ -54,10 +55,10 @@ Numerico, entero y flotante
  => Float
  :016 > 3.5e4           # Notacion cientifica
  => 35000.0
-
+```
 ***********
-Cadena de caracteres
-
+### Cadena de caracteres
+```ruby
  :017 > salude = 'Como esta'
  => "Como esta"
  :018 > liendra = 'Ingeniero'
@@ -93,10 +94,11 @@ Escape caracteres especiales "@oelo" "#perro" "$sin" "&Amo"
  => "g"
  :030 > liendra[3]
  => "e"
+ ```
 ***********
 
-Arreglos (arrays)
-
+### Arreglos (arrays)
+```ruby
  :001 > perro_sonso = []              # Arreglo vacio
  => []
  :002 > perro_sonso.class             # Clase
@@ -146,10 +148,10 @@ Arreglos (arrays)
  => 4
  :034 > perro_sonso
  => [1, 2, 3, 0]
-
+```
 ***********
-Diccionarios => Colecciones de datos => Hashes
-
+###Diccionarios => Colecciones de datos => Hashes
+```ruby
  :003 > sr_hash = {}                  # Hash Vacio
  => {}
  :004 > sr_hash.class                 # Clase Hash
@@ -171,15 +173,14 @@ Diccionarios => Colecciones de datos => Hashes
  => {:nombre=>"Mary", :tipo=>"Modelo", :sexo=>"Mucho"}
  :059 > sr_hash.clear                 # Limpiando hash
  => {}
-
-
+```
 *********************************
-Estructuras de control
+###Estructuras de control
 
-if else elsif
+####if else elsif
 
-estructuracontrolif.rb
-
+######estructuracontrolif.rb
+```ruby
 ➜  Iniciacion  ruby estructuracontrolif.rb
 Ingrese numero
 3
@@ -192,4 +193,4 @@ Cero
 Ingrese numero
 -9
 negativo
-
+```
